@@ -16,7 +16,7 @@ void draw() {
   // Add the current speed to the x location.
   x = x + speed;
 
-  // Remember, || means "or."
+ 
   if ((x > width) || (x < 0)) {
     // If the object reaches either edge, 
     // multiply speed by -1 to turn it around.
@@ -28,7 +28,7 @@ void draw() {
   fill(255,0,0);
   ellipse(x, y, 32, 32);
   
-  // Display the circle's location as text
+  // circle's location as text
   fill(0);
   textFont(f);
   String locationString = x + "," + y;
